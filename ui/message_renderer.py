@@ -500,7 +500,7 @@ class MessageRenderer:
         return dialogs
     
     @staticmethod
-    def load_persistent_context_to_ui(parent_widget, max_messages: int = None) -> List[tuple]:
+    def load_persistent_context_to_ui(parent_widget, max_messages: int = None) -> list[tuple]:
         """
         将持久化上下文加载到前端UI
         
